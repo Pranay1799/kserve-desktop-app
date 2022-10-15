@@ -1,0 +1,197 @@
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Italiana&display=swap');
+/* font-family: 'Cormorant Garamond', serif;
+   font-family: 'Italiana', serif; */
+*{
+  box-sizing: border-box;
+ }
+
+body {
+   min-height: 100vh; 
+   background-color: #F7F5F3;
+   /*flex*/
+   display: flex;
+   justify-content: stretch;
+   align-items: center;
+ }
+h1 {
+  font-size: 48px;
+  font-family: 'Italiana', serif;
+  font-weight: 400;
+  margin-bottom: 64px;
+  color: #554A3D;
+  }
+
+input, span, label, button, a {
+  font-family: 'Cormorant Garamond', serif;
+  color: #554A3D;
+  }
+
+a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 8px;
+  /*flex*/
+  display: flex;  
+  justify-content: flex-end;
+  }
+
+fieldset {
+  border: none;
+  /*flex*/
+  display: flex;
+  flex-direction: column;
+  }
+
+ label {
+   font-size: 18px;
+   font-weight: 600;
+   }
+
+fieldset input:first-of-type {
+  margin: 8px 0px 40px;
+  }
+
+input {
+  width: 100%;
+  height: 40px;
+  border: none;
+  background-color: #E8E3DC;
+  border-radius: 10px;
+  /*flex*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+button {
+  width: 192px;
+  height: 48px;
+  border: none;
+  background-color: transparent;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 20px;
+  border-radius: 10px;
+  }
+
+.left {
+  width: 35%;
+  padding: 24px;
+}
+
+.right {
+  width: 65%;
+  height: 100vh;
+  background-image: url(https://images.pexels.com/photos/7911758/pexels-photo-7911758.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2); 
+  background-size: cover;
+  background-position: center; /* Picture credits: Rodion Kutsaiev: https://www.pexels.com/es-es/foto/ligero-arte-abstracto-arquitectura-7911758/ */
+  }
+
+.primaryBtn {
+  color: #F7F5F3;
+  background-color: #85A2AB;
+  margin: 40px auto 56px;
+  }
+
+.primaryBtn:hover {
+  background-color: #516369;
+  }
+
+.separator {
+  width: 100%;
+  height: 1px;
+  margin: 0px auto 56px; 
+  background-color: #BBB4A7;
+  }
+
+span {
+  font-size: 18px;
+  font-weight: 700;
+  /*flex*/
+  display: flex;
+  justify-content: center;
+  }
+
+.secondaryBtn {
+  color: #554A3D;
+  border: 1px solid #85A2AB;
+  margin: 8px auto;
+  }
+
+.secondaryBtn:hover {
+  color: #516369;
+  border-color: #516369;
+  }
+  body {
+    font-family: Open Sans;
+}
+
+h1 {
+    text-align: center;
+}
+
+#title {
+    text-decoration: underline;
+}
+
+#quiz {
+    text-indent: 10px;
+    display:none;
+}
+
+.button {
+    border:4px solid;
+    border-radius:5px;
+    width: 40px;
+    padding-left:5px;
+    padding-right: 5px;
+    position: relative;
+    float:right;
+    background-color: #DCDCDC;
+    color: black;
+    margin: 0 2px 0 2px;
+}
+
+.button.active {
+    background-color: #F8F8FF;
+    color: #525252;
+}
+
+button {
+    position: relative;
+    float:right;
+}
+
+.button a {
+    text-decoration: none;
+    color: black;
+}
+
+#container {
+    width:50%;
+    margin:auto;
+    padding: 0 25px 40px 10px;
+    background-color: #1E90FF;
+    border:4px solid #B0E0E6;
+    border-radius:5px;
+    color: #FFFFFF;
+    font-weight: bold;
+    box-shadow: 5px 5px 5px #888;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#prev {
+    display:none;
+}
+
+#start {
+    display:none;
+    width: 90px;
+}
